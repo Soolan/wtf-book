@@ -1,6 +1,21 @@
 {
   "name": "wtf-book",
   "version": "0.0.0",
+  "description": "The source code for my book: Code, Cloud, Crypto",
+  "keywords": [
+    "angular",
+    "firebase",
+    "typescript",
+    "crypto",
+    "xrpl",
+    "elearning",
+    "blockchain"
+  ],
+  "author": {
+    "name": "Sohail Salehi Mava",
+    "email": "drink@wtf.pub",
+    "url": "https://wtf.pub"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
