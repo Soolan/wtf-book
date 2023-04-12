@@ -100,23 +100,23 @@
         }
       }
     },
-    "wtf": {
+    "ngx-wtf": {
       "projectType": "library",
-      "root": "projects/wtf",
-      "sourceRoot": "projects/wtf/src",
+      "root": "projects/ngx-wtf",
+      "sourceRoot": "projects/ngx-wtf/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/wtf/ng-package.json"
+            "project": "projects/ngx-wtf/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/wtf/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-wtf/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/wtf/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-wtf/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -124,7 +124,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/wtf/tsconfig.spec.json",
+            "tsConfig": "projects/ngx-wtf/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

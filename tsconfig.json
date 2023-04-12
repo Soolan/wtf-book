@@ -24,8 +24,8 @@
       "dom"
     ],
     "paths": {
-      "wtf": [
-        "dist/wtf"
+      "ngx-wtf": [
+        "dist/ngx-wtf"
       ]
     }
   },
