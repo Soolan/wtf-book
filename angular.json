@@ -99,6 +99,39 @@
           }
         }
       }
+    },
+    "wtf": {
+      "projectType": "library",
+      "root": "projects/wtf",
+      "sourceRoot": "projects/wtf/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/wtf/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/wtf/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/wtf/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/wtf/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
   }
 }
