@@ -1,6 +1,8 @@
 # WtfBook
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+This repository hosts the chapters of my book "Code, Cloud Crypto".
+To see the finished code for each chapter, checkout to the branch that indicates the chapter number (i.e. `git checkout chapter-01`)
 
 ## Development server
 
