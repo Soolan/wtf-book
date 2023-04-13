@@ -18,11 +18,11 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "lint": "ng lint"
+    "start:website": "ng serve website --open --port 4201",
+    "build:website": "ng build --project=website",
+    "watch:website": "ng build --project=website --watch --configuration development",
+    "test:website": "ng test website",
+    "lint:website": "ng lint website"
   },
   "private": true,
   "dependencies": {
