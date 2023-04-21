@@ -26,6 +26,9 @@
     "paths": {
       "ngx-wtf": [
         "dist/ngx-wtf"
+      ],
+      "ngx-xrplscan": [
+        "dist/ngx-xrplscan"
       ]
     }
   },
