@@ -1,6 +1,19 @@
 {
   "name": "ngx-xrplscan",
   "version": "0.0.1",
+  "keywords": [
+    "crypto",
+    "xrpl",
+    "blockchain",
+    "explorer",
+    "angular",
+    "typescript"
+  ],
+  "author": {
+    "name": "Sohail Salehi Mava",
+    "email": "drink@wtf.pub",
+    "url": "https://wtf.pub"
+  },
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
