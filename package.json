@@ -23,10 +23,10 @@
     "watch:website": "ng build --project=website --watch --configuration development",
     "test:website": "ng test --project=website",
     "lint:website": "ng lint --project=website",
-    "test:xrplscan": "ng test --project=ngx-xrplscan",
-    "lint:xrplscan": "ng lint --project=ngx-xrplscan",
-    "build:xrplscan": "ng build --project=ngx-xrplscan",
-    "watch:xrplscan": "ng build --project=ngx-xrplscan --watch --configuration development"
+    "test:xrplscan": "ng test --project=xrplscan",
+    "lint:xrplscan": "ng lint --project=xrplscan",
+    "build:xrplscan": "ng build --project=xrplscan",
+    "watch:xrplscan": "ng build --project=xrplscan --watch --configuration development"
   },
   "private": true,
   "dependencies": {
