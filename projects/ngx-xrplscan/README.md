@@ -1,15 +1,15 @@
 # NgxXrplscan
 
 ## Overview:
-The XRPL transaction explorer is an Angular library that allows users to explore transaction details on the XRPL network. This library can be used to retrieve transaction details based on a given tx id, and all transactions in the past 30 days for a given wallet address. It is designed for developers who want to build XRPL transaction explorers or other applications that require transaction information.
+The ngx-xrplscan is an Angular library that allows users to explore transaction details on the XRPL network. This library can be used to retrieve transaction details based on a given tx id, and all transactions in the past 30 days for a given wallet address. It is designed for developers who want to build transaction explorers or other applications that require transaction information.
 
 ## Installation:
-To install the XRPL transaction explorer, you can use npm. Run the following command:
+To install the ngx-xrplscan, you can use npm. Run the following command:
 
-`npm install xrpl-transaction-explorer`
+`npm install ngx-xrplscan`
 
 ## Usage:
-The XRPL transaction explorer provides two main functions:
+The ngx-xrplscan provides two main functions:
 - `getTransactionDetailsById(txId: string): Promise<TransactionDetails>`
 
 This function takes a transaction id as input and returns the details of the corresponding transaction. The details include the sender, receiver, amount, and other relevant information.
