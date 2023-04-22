@@ -1,17 +1,16 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NgxXrplscanService } from './ngx-xrplscan.service';
+import { XrplscanService } from './xrplscan.service';
 
-describe('NgxXrplscanService', () => {
-  let service: NgxXrplscanService;
+describe('XrplscanService', () => {
+  let service: XrplscanService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(NgxXrplscanService);
+    service = TestBed.inject(XrplscanService);
   });
 
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
 });
-

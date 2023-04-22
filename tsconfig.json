@@ -29,6 +29,9 @@
       ],
       "ngx-xrplscan": [
         "dist/ngx-xrplscan"
+      ],
+      "xrplscan": [
+        "dist/xrplscan"
       ]
     }
   },

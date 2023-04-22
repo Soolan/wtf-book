@@ -1,4 +1,4 @@
-# NgxXrplscan
+# Xrplscan
 
 ## Overview:
 The ngx-xrplscan is an Angular library that allows users to explore transaction details on the XRPL network. This library can be used to retrieve transaction details based on a given tx id, and all transactions in the past 30 days for a given wallet address. It is designed for developers who want to build transaction explorers or other applications that require transaction information.

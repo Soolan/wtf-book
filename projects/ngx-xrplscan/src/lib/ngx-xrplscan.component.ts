@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-ngx-xrplscan',
-  template: `
-    <p>
-      ngx-xrplscan works!
-    </p>
-  `,
+  selector: 'xrplscan',
+  template: `<ng-content></ng-content>`,
   styles: [
   ]
 })
