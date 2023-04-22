@@ -21,8 +21,12 @@
     "start:website": "ng serve website --open --port 4201",
     "build:website": "ng build --project=website",
     "watch:website": "ng build --project=website --watch --configuration development",
-    "test:website": "ng test website",
-    "lint:website": "ng lint website"
+    "test:website": "ng test --project=website",
+    "lint:website": "ng lint --project=website",
+    "test:xrplscan": "ng test --project=ngx-xrplscan",
+    "lint:xrplscan": "ng lint --project=ngx-xrplscan",
+    "build:xrplscan": "ng build --project=ngx-xrplscan",
+    "watch:xrplscan": "ng build --project=ngx-xrplscan --watch --configuration development"
   },
   "private": true,
   "dependencies": {
